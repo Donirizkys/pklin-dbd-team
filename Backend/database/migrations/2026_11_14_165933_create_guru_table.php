@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('nip', 30)->unique();
             $table->string('nama');
             $table->string('email',100);
-            $table->string('no_telp', 20);
+            $table->string('no_telp', 20)->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

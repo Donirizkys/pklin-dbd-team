@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class HariLibur extends Model
+{
+    protected $table = 'hari_libur';
+    protected $guarded = ['id'];
+
+    protected $casts = [
+        'tanggal' => 'date',
+    ];
+
+    public function mitra(){
+        return $this->belongsTo(Mitra::class, 'id_mitra');
+    }
+}

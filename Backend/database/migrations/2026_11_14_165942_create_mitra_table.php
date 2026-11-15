@@ -19,7 +19,7 @@ return new class extends Migration
             $table->text('alamat');
             $table->decimal('latitude', 10, 7);
             $table->decimal('longitude', 10, 7);
-            $table->string('no_telp', 20);
+            $table->string('no_telp', 20)->nullabel();
             $table->timestamps();
             $table->softDeletes();
         });
