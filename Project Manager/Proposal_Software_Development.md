@@ -325,7 +325,7 @@ Pengembangan PKLin direncanakan berlangsung selama delapan minggu, mulai dari st
 | 7 | Integrasi & Pengujian | Mengintegrasikan seluruh komponen dan menguji fungsi aplikasi dengan black box testing | Semua Anggota | Minggu 7 |
 | 8 | Penyempurnaan & Dokumentasi | Memperbaiki sistem, deployment, menyusun dokumentasi dan presentasi | Semua Anggota | Minggu 8 |
 
----
+--
 
 ## 8. Daftar Pustaka
 
